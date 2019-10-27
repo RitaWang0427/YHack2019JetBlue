@@ -73,8 +73,8 @@ def buildTrainingSet(corpusFile, tweetDataFile):
                 print(e)
     return trainingDataSet
 
-corpusFile = "/Users/oumizuyou/PycharmProjects/YHack2019test/corpus1.csv"
-tweetDataFile = "/Users/oumizuyou/PycharmProjects/YHack2019test/tweetDataFile.csv"
+corpusFile = "corpus.csv"
+tweetDataFile = "tweetDataFile.csv"
 
 trainingData = buildTrainingSet(corpusFile, tweetDataFile)
 
