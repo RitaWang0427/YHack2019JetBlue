@@ -170,7 +170,7 @@ print("Percentage of Customer Services Issues = " + str(100*NBResultTopics.count
 labels = ["Airline Time Issues","Customers' Baggage Issues","Customer Services Issues"]
 size = [x,y,z]
 colors = ['#00CCCC','#006666','#009999']
-plt.pie(size,labels=label1,colors = colors,autopct='%1.1f%%',
+plt.pie(size,labels=labels,colors = colors,autopct='%1.1f%%',
         shadow=True, startangle=90,textprops={'fontsize': 8})
 plt.title('Reasons for Negative Sentiment')
 plt.show()
